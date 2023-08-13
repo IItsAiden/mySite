@@ -1,10 +1,10 @@
 import cat from "../imgs/tiger.jpg";
 import linkedin from "../imgs/linkedinw.svg";
-//TODO: add LinkIn and IG and email
+
 export default function About() {
   return (
     <div>
-      <h1 className="text-center my-5">About</h1>
+      <h1 className="text-center my-5 fs-1 fw-bold">About</h1>
       <img
         src={cat}
         className="img-thumbnail rounded mx-auto my-3 d-block w-50"
@@ -53,7 +53,11 @@ export default function About() {
           alt="..."
         />
       </a>
-      <p>Email</p>
+      <div className="text-center mx-auto my-3">
+        <button type="button" className="btn btn-primary btn-lg">
+          Email Me
+        </button>
+      </div>
     </div>
   );
 }

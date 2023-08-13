@@ -1,3 +1,8 @@
+//TODO: make the pdf working
 export default function Resume() {
-  return <h1>Resume</h1>;
+  return (
+    <div>
+      <h1>Constructing ...</h1>
+    </div>
+  );
 }

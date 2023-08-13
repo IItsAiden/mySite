@@ -1,12 +1,11 @@
-//TODO: fix collapse button not working
-
 import { Link } from "react-router-dom";
 
+//TODO: fix collapse button not working
 function Navbar() {
   return (
     <nav className="navbar navbar-expand-sm bg-body-tertiary">
       <div className="container-fluid">
-        <Link className="navbar-brand mb-0 h1" to="/mySite/">
+        <Link className="navbar-brand mb-0 h1 fw-bold" to="/mySite/">
           Aiden
         </Link>
         <button
@@ -19,8 +18,11 @@ function Navbar() {
         >
           <span className="navbar-toggler-icon"></span>
         </button>
-        <div className="collapse navbar-collapse" id="collapse">
-          <div className="navbar-nav">
+        <div
+          className="collapse navbar-collapse justify-content-end"
+          id="collapse"
+        >
+          <div className="navbar-nav fw-semibold">
             <Link className="nav-link" to="/mySite/about">
               About
             </Link>
