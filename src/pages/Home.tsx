@@ -1,8 +1,8 @@
 export default function Home() {
   return (
     <div>
-      <h1 className="text-center mt-5 mb-3">What's up, I'm Aiden</h1>
-      <p className="text-center">
+      <h1 className="text-center my-5">What's up, I'm Aiden</h1>
+      <p className="text-center my-5">
         👋 Hello there! I'm Aiden, a passionate and dedicated computer science
         enthusiast. This is my corner of the digital universe where I showcase
         my journey, projects, and the boundless possibilities of technology. As
@@ -14,31 +14,49 @@ export default function Home() {
       </p>
       <div className="row">
         <div className="col-sm-6 mb-3 mb-sm-0">
-          <div className="card" style={{ width: 288 }}>
-            <img src="..." className="card-img-top" alt="..." />
+          <div className="card">
             <div className="card-body">
-              <h5 className="card-title">Card title</h5>
-              <p className="card-text">
-                1 Some quick example text to build on the card title and make up
-                the bulk of the card's content.
-              </p>
+              <h5 className="card-title">Restaurant AI Chatbot</h5>
+              <p className="card-text">content.</p>
               <a href="#" className="btn btn-primary">
-                Go somewhere
+                Details
               </a>
             </div>
           </div>
         </div>
-        <div className="col-sm-6">
-          <div className="card" style={{ width: 288 }}>
-            <img src="..." className="card-img-top" alt="..." />
+        <div className="col-sm-6 mb-3">
+          <div className="card">
             <div className="card-body">
-              <h5 className="card-title">Card title</h5>
-              <p className="card-text">
-                2 Some quick example text to build on the card title and make up
-                the bulk of the card's content.
-              </p>
+              <h5 className="card-title">AI using Reinforcement Learning</h5>
+              <p className="card-text">content.</p>
               <a href="#" className="btn btn-primary">
-                Go somewhere
+                Details
+              </a>
+            </div>
+          </div>
+        </div>
+        <div className="col-sm-6 mb-3">
+          <div className="card">
+            <div className="card-body">
+              <h5 className="card-title">Compiler</h5>
+              <p className="card-text">content.</p>
+              <a href="#" className="btn btn-primary">
+                Details
+              </a>
+            </div>
+          </div>
+        </div>
+        <div className="col-sm-6 mb-3">
+          <div className="card">
+            <div className="card-body">
+              <h5 className="card-title">Coming Soon</h5>
+              <p className="card-text">content.</p>
+              <a
+                href="#"
+                className="btn btn-primary disabled"
+                aria-disabled="true"
+              >
+                Details
               </a>
             </div>
           </div>

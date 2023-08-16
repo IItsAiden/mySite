@@ -23,6 +23,9 @@ function Navbar() {
           id="collapse"
         >
           <div className="navbar-nav fw-semibold">
+            <Link className="nav-link" to="/mySite/">
+              Home
+            </Link>
             <Link className="nav-link" to="/mySite/about">
               About
             </Link>
