@@ -1,13 +1,19 @@
 export default function Home() {
   return (
     <div>
-      <h1 className="text-center my-5">What's up, I'm Aiden</h1>
-      <p className="text-center my-5">
+      <h1 className="display-1 mt-3">
+        Hello,
+        <br /> World.
+      </h1>
+      <p className="mb-5">
         👋 Hello there! I'm Aiden, a passionate and dedicated computer science
-        enthusiast. This is my corner of the digital universe where I showcase
-        my journey, projects, and the boundless possibilities of technology. As
-        a recent graduate in computer science from the University of Nottingham,
-        I am excited to share with you a curated collection of my academic and
+        enthusiast.
+      </p>
+      <p className="text-center mb-5">
+        This is my corner of the digital universe where I showcase my journey,
+        projects, and the boundless possibilities of technology. As a recent
+        graduate in computer science from the University of Nottingham, I am
+        excited to share with you a curated collection of my academic and
         personal achievements. From crafting elegant lines of code to unraveling
         intricate algorithms, I've embarked on a journey of exploration and
         growth.
