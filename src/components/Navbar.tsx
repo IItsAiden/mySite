@@ -29,7 +29,10 @@ function Navbar() {
             <Link className="nav-link" to="/mySite/about">
               About
             </Link>
-            <Link className="nav-link" to="/mySite/resume">
+            <Link
+              className="nav-link"
+              to="https://drive.google.com/file/d/1W7cGGePWPuwOIOBfUU-idkC1xvK9oNxm/view?usp=sharing"
+            >
               Resume
             </Link>
           </div>

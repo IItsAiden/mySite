@@ -1,5 +1,4 @@
 import cat from "../imgs/tiger.jpg";
-import linkedin from "../imgs/linkedinw.svg";
 
 export default function About() {
   return (
@@ -44,19 +43,6 @@ export default function About() {
           experiences. Feel free to reach out, and let's embark on this journey
           of exploration and innovation together.
         </p>
-      </div>
-      <a href=" https://www.linkedin.com/in/vun-yi-chong?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BOAWeHwXaRqOORRZ%2Fv3sUNQ%3D%3D">
-        <img
-          src={linkedin}
-          style={{ width: 30, height: 30 }}
-          className="rounded mx-auto d-block"
-          alt="..."
-        />
-      </a>
-      <div className="text-center mx-auto my-3">
-        <button type="button" className="btn btn-primary btn-lg">
-          Email Me
-        </button>
       </div>
     </div>
   );

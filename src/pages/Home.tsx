@@ -12,14 +12,17 @@ export default function Home() {
         intricate algorithms, I've embarked on a journey of exploration and
         growth.
       </p>
-      <div className="row">
+      <div className="row my-5">
         <div className="col-sm-6 mb-3 mb-sm-0">
           <div className="card">
             <div className="card-body">
               <h5 className="card-title">Restaurant AI Chatbot</h5>
-              <p className="card-text">content.</p>
-              <a href="#" className="btn btn-primary">
-                Details
+              <p className="card-text"> </p>
+              <a
+                href="https://github.com/IItsAiden/RestaurantChatBot"
+                className="btn btn-primary"
+              >
+                To Repo
               </a>
             </div>
           </div>
@@ -28,9 +31,12 @@ export default function Home() {
           <div className="card">
             <div className="card-body">
               <h5 className="card-title">AI using Reinforcement Learning</h5>
-              <p className="card-text">content.</p>
-              <a href="#" className="btn btn-primary">
-                Details
+              <p className="card-text"> </p>
+              <a
+                href="https://github.com/IItsAiden/ReinforcementLearning"
+                className="btn btn-primary"
+              >
+                To Repo
               </a>
             </div>
           </div>
@@ -39,9 +45,12 @@ export default function Home() {
           <div className="card">
             <div className="card-body">
               <h5 className="card-title">Compiler</h5>
-              <p className="card-text">content.</p>
-              <a href="#" className="btn btn-primary">
-                Details
+              <p className="card-text"> </p>
+              <a
+                href="https://github.com/IItsAiden/Compiler"
+                className="btn btn-primary"
+              >
+                To Repo
               </a>
             </div>
           </div>
@@ -50,13 +59,13 @@ export default function Home() {
           <div className="card">
             <div className="card-body">
               <h5 className="card-title">Coming Soon</h5>
-              <p className="card-text">content.</p>
+              <p className="card-text"> </p>
               <a
                 href="#"
                 className="btn btn-primary disabled"
                 aria-disabled="true"
               >
-                Details
+                Coming Soon
               </a>
             </div>
           </div>
